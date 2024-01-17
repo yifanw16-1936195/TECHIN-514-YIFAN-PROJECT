@@ -35,3 +35,8 @@ When the user's posture is correct, the needle points to a specific 'Good' posit
 - Battery
 
 <img width="656" alt="image" src="https://github.com/yifanw16-1936195/TECHIN-514-YIFAN-PROJECT/assets/77317334/a1699b53-0425-457c-a44a-84d80a15182f">
+
+# System Diagram
+<img width="656" alt="image" src="https://github.com/yifanw16-1936195/TECHIN-514-YIFAN-PROJECT/assets/77317334/7334913b-86d6-432f-b859-b5bcb75700b8">
+<img width="658" alt="image" src="https://github.com/yifanw16-1936195/TECHIN-514-YIFAN-PROJECT/assets/77317334/95fad71a-0839-4794-abda-1c26311a89c8">
+
