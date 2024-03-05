@@ -7,10 +7,10 @@ from datetime import datetime
 
 # Firebase configuration
 firebase_config = {
-    "apiKey": "AIzaSyBv3VISnijb9p1HwbtUMjp8YBggXMDjT9I",
-    "authDomain": "techin514-final-default-rtdb.firebaseio.com",
-    "databaseURL": "https://techin514-final-default-rtdb.firebaseio.com/",
-    "storageBucket": "techin514-final-default-rtdb.appspot.com"
+    "apiKey": "xxxxxxxxxxxxxxxxxxxx",
+    "authDomain": "xxxxxxxxxxxxxxxxxxxx",
+    "databaseURL": "xxxxxxxxxxxxxxxxxxxx",
+    "storageBucket": "xxxxxxxxxxxxxxxxxxxx"
 }
 
 # Initialize Firebase

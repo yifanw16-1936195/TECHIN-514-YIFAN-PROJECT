@@ -5,14 +5,14 @@
 #include <time.h> // Include the time library
 
 // WiFi network settings
-#define WIFI_SSID "ChocoLuna"
-#define WIFI_PASSWORD "20190929"
+#define WIFI_SSID "xxxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxxxxx"
 
 // Firebase credentials
-#define API_KEY "AIzaSyBv3VISnijb9p1HwbtUMjp8YBggXMDjT9I"
-#define DATABASE_URL "https://techin514-final-default-rtdb.firebaseio.com/"
-#define USER_EMAIL "wyf_testing@gmail.com"
-#define USER_PASSWORD "Wyf123456"
+#define API_KEY "xxxxxxxxxxxx"
+#define DATABASE_URL "xxxxxxxxxxxx"
+#define USER_EMAIL "xxxxxxxxxxxx"
+#define USER_PASSWORD "xxxxxxxxxxxx"
 
 // Define the Firebase objects
 FirebaseData fbdo;

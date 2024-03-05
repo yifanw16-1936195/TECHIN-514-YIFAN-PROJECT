@@ -9,10 +9,10 @@ from sklearn.neural_network import MLPClassifier
 # Step 1: Fetch the Data from Firebase
 
 firebase_config = {
-    "apiKey": "AIzaSyBv3VISnijb9p1HwbtUMjp8YBggXMDjT9I",
-    "authDomain": "techin514-final-default-rtdb.firebaseio.com",
-    "databaseURL": "https://techin514-final-default-rtdb.firebaseio.com/",
-    "storageBucket": "techin514-final-default-rtdb.appspot.com"
+    "apiKey": "xxxxxxxxxxxxxxxxxxxx",
+    "authDomain": "xxxxxxxxxxxxxxxxxxxx",
+    "databaseURL": "xxxxxxxxxxxxxxxxxxxx",
+    "storageBucket": "xxxxxxxxxxxxxxxxxxxx"
 }
 
 firebase = pyrebase.initialize_app(firebase_config)
@@ -73,17 +73,16 @@ best_accuracy = accuracies[best_model_name]
 
 print(f"\nModel with the highest accuracy: {best_model_name} ({best_accuracy})")
 
-
 # Step 5: Console Input for Predictions - FOR TESTING PURPOSES
 
-# def make_prediction(model, distance, pressure):
-#     prediction = model.predict([[distance, pressure]])
-#     labels = {1: "good posture", 2: "leaning forward", 3: "leaning backward", 4: "sitting at front", 5: "sitting at back"}
-#     return labels[prediction[0]]
+def make_prediction(model, distance, pressure):
+    prediction = model.predict([[distance, pressure]])
+    labels = {1: "good posture", 2: "leaning forward", 3: "leaning backward", 4: "sitting at front", 5: "sitting at back"}
+    return labels[prediction[0]]
 
-# distance_input = float(input("Enter distance: "))
-# pressure_input = float(input("Enter pressure: "))
+distance_input = float(input("Enter distance: "))
+pressure_input = float(input("Enter pressure: "))
 
-# print("SVM Prediction:", make_prediction(svm_model, distance_input, pressure_input))
-# print("Random Forest Prediction:", make_prediction(rf_model, distance_input, pressure_input))
-# print("Neural Network Prediction:", make_prediction(nn_model, distance_input, pressure_input))
+print("SVM Prediction:", make_prediction(svm_model, distance_input, pressure_input))
+print("Random Forest Prediction:", make_prediction(rf_model, distance_input, pressure_input))
+print("Neural Network Prediction:", make_prediction(nn_model, distance_input, pressure_input))
